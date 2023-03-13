@@ -1,0 +1,771 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 22621.1265; Version 2009; 64bit' Language: 'ko' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jung Gun/Desktop/projectij1/projectij
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64293
+Successfully changed project path to: C:/Users/Jung Gun/Desktop/projectij1/projectij
+C:/Users/Jung Gun/Desktop/projectij1/projectij
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jung Gun/Desktop/projectij1/projectij/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6009 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002065 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2833ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (156ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3288 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.6 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3728.
+Total: 3.690200 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.166600 ms MarkObjects: 3.137300 ms  DeleteObjects: 0.037200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/04Sprites/flags
+  artifactKey: Guid(877df0d7a86a43f48a8d967382b83bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags using Guid(877df0d7a86a43f48a8d967382b83bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b3db46d5fd1cbc798aea1073e28b5d') in 0.007237 seconds 
+  Import took 0.012304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.980808 seconds.
+  path: Assets/04Sprites/flags/chosokabe.png
+  artifactKey: Guid(cfbcda298f245c74e908e91c4e28677c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/chosokabe.png using Guid(cfbcda298f245c74e908e91c4e28677c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913fbc7ffac5788d37bb3e6c785f7c42') in 0.093398 seconds 
+  Import took 0.099464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/04Sprites/flags/ukida.png
+  artifactKey: Guid(7c9c98d98ee4e4a46ac8a03bf0aec29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/ukida.png using Guid(7c9c98d98ee4e4a46ac8a03bf0aec29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f2ac4e986bf8c703193173c559cec5') in 0.012021 seconds 
+  Import took 0.017548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/04Sprites/flags/otomo.png
+  artifactKey: Guid(6caf31081cdfc1848a53dab408d21fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/otomo.png using Guid(6caf31081cdfc1848a53dab408d21fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d41e1fae0e88e61db578852cf01a804') in 0.013539 seconds 
+  Import took 0.018752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/04Sprites/flags/guroda.png
+  artifactKey: Guid(1cac1a6b8468c7f4aaceeae41eeda50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/guroda.png using Guid(1cac1a6b8468c7f4aaceeae41eeda50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb826fc80f966d4055b195540fb98ac') in 0.013510 seconds 
+  Import took 0.019066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/04Sprites/flags/shinazu.png
+  artifactKey: Guid(4a1e8716b1b946f4eabea5764662ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/shinazu.png using Guid(4a1e8716b1b946f4eabea5764662ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68f641f8056a36362adf45be0bbd423') in 0.013368 seconds 
+  Import took 0.018740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/04Sprites/flags/nabeshima.png
+  artifactKey: Guid(023ebbce84ac4854ba7784ff4c981d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/nabeshima.png using Guid(023ebbce84ac4854ba7784ff4c981d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc745ce1c34aeddffb3adf3fc48f793') in 0.013164 seconds 
+  Import took 0.018292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/04Sprites/flags/so.png
+  artifactKey: Guid(217b4bbf20ede7f41ab5923295dd342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/so.png using Guid(217b4bbf20ede7f41ab5923295dd342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc83ac102c6794ba87f8080740485a4') in 0.014440 seconds 
+  Import took 0.020245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/04Sprites/flags/gonishi.png
+  artifactKey: Guid(5cafff9939e0a8e4f9bcc18d5c232178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/gonishi.png using Guid(5cafff9939e0a8e4f9bcc18d5c232178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37916f05397a0390e7d04cec59332aca') in 0.013481 seconds 
+  Import took 0.018599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/04Sprites/flags/kubayakawa.png
+  artifactKey: Guid(fe591f1f3f050b149add6d844a6dba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/kubayakawa.png using Guid(fe591f1f3f050b149add6d844a6dba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f664288849ebafa6ef1f6acc16392b') in 0.013038 seconds 
+  Import took 0.018394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/04Sprites/flags/dodo.png
+  artifactKey: Guid(6b2ffdd001638f949b1ad9408ef73156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/dodo.png using Guid(6b2ffdd001638f949b1ad9408ef73156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778eda2549c50264ea0b0203d8eabf4f') in 0.014586 seconds 
+  Import took 0.019860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/04Sprites/flags/gato.png
+  artifactKey: Guid(268465b701f9f484a91098ec4002bab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/flags/gato.png using Guid(268465b701f9f484a91098ec4002bab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cc1e250131f2e0f9c781f29d59b556') in 0.018144 seconds 
+  Import took 0.023286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8034.430742 seconds.
+  path: Assets/04Sprites/Weapon/seung.png
+  artifactKey: Guid(7295f7940714bba4986f46a6d0528f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/Weapon/seung.png using Guid(7295f7940714bba4986f46a6d0528f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c20327babcc7df319b3d2af23e44608') in 0.026886 seconds 
+  Import took 0.037199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.222273 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a60dc168e98df90925d53a038b21de') in 0.137962 seconds 
+  Import took 0.143158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.304003 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074599059b10cffa8f2a93309d116b7d') in 0.010521 seconds 
+  Import took 0.015437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.911820 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a84b0e7a229075a7d1fe15c746a7b22') in 0.010274 seconds 
+  Import took 0.015463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.231761 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bdc95243e76c3873068bab15c7f99c') in 0.010061 seconds 
+  Import took 0.015536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.619654 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0636106750dece0964b8971907b82575') in 0.009772 seconds 
+  Import took 0.014929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.047036 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577980c2ce1367154a6fa7cb4571ba77') in 0.011350 seconds 
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.225766 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ca64ee26f8c35111405c2d69b8088d') in 0.010056 seconds 
+  Import took 0.015394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.470596 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7b141ee9118abfd0ad8e5e87be3570') in 0.010066 seconds 
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.722650 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d58ea85b8a3c7d4abc39b782fdf297') in 0.011271 seconds 
+  Import took 0.016351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.945842 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d1fa2e7b3b05d57e49743214b2421d') in 0.011869 seconds 
+  Import took 0.017361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.529572 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc484842d0d147453e9f84d5fda085f7') in 0.011011 seconds 
+  Import took 0.016184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.990702 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d3990baf0233f879a8627066a9a5f5') in 0.009555 seconds 
+  Import took 0.014841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225374 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af72b94f840582242b43379e4c5ec5') in 0.013345 seconds 
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.620111 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13428a174b04dd6d8fca1ed48796cb49') in 0.010026 seconds 
+  Import took 0.015216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402011 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794437d90dc3042c5837f769aab4aa70') in 0.009888 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.118098 seconds.
+  path: Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab
+  artifactKey: Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/SeungjaUpgraded.prefab using Guid(470c6db36afee37499e406908d1f8959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587dd7e08a953c5882aa98675e2dd2f9') in 0.011396 seconds 
+  Import took 0.016372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.874341 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee3ca3f423b266ab2864667f5cabcb3') in 0.011215 seconds 
+  Import took 0.016248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.457909 seconds.
+  path: Assets/06Prefabs/Weapon/Seungja.prefab
+  artifactKey: Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/Seungja.prefab using Guid(229d52485867d224d8db2e6766d62f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018a905c890166c2e0ebe23208f1bc53') in 0.010454 seconds 
+  Import took 0.015882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.691874 seconds.
+  path: Assets/06Prefabs/Weapon/PyeongonExplosion.prefab
+  artifactKey: Guid(75f5ea3346edb4a40b3550811f084581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/PyeongonExplosion.prefab using Guid(75f5ea3346edb4a40b3550811f084581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5de712141c95f8671d7c345ab18ffe') in 0.010540 seconds 
+  Import took 0.015699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.357258 seconds.
+  path: Assets/06Prefabs/Weapon/PyeongonExplosion.prefab
+  artifactKey: Guid(75f5ea3346edb4a40b3550811f084581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/PyeongonExplosion.prefab using Guid(75f5ea3346edb4a40b3550811f084581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f859c3102f93f972ebf218175c648dd7') in 0.011679 seconds 
+  Import took 0.016639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.544093 seconds.
+  path: Assets/06Prefabs/Weapon/PyeongonExplosion.prefab
+  artifactKey: Guid(75f5ea3346edb4a40b3550811f084581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/PyeongonExplosion.prefab using Guid(75f5ea3346edb4a40b3550811f084581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d05b40668c4103652f10d32023b1871') in 0.005527 seconds 
+  Import took 0.010315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.712767 seconds.
+  path: Assets/06Prefabs/Weapon/PyeongonExplosionUpgraded.prefab
+  artifactKey: Guid(e5e65691f6a07e947a8b6e650f850788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/PyeongonExplosionUpgraded.prefab using Guid(e5e65691f6a07e947a8b6e650f850788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cc0e22d5d5abd7126e9719d7c50b83') in 0.010202 seconds 
+  Import took 0.015641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.439674 seconds.
+  path: Assets/06Prefabs/Weapon/PyeongonExplosionUpgraded.prefab
+  artifactKey: Guid(e5e65691f6a07e947a8b6e650f850788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/PyeongonExplosionUpgraded.prefab using Guid(e5e65691f6a07e947a8b6e650f850788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167787730b5e66f9e8bbe7af2b4de8df') in 0.010899 seconds 
+  Import took 0.015932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2320.788665 seconds.
+  path: Assets/06Prefabs/rand_item1.prefab
+  artifactKey: Guid(c0e6db0c90448c149b494a939c3cf831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/rand_item1.prefab using Guid(c0e6db0c90448c149b494a939c3cf831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db06fb5e4cf0252d1eeb11379a2f7366') in 0.011917 seconds 
+  Import took 0.017418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.565885 seconds.
+  path: Assets/04Sprites/objects/magnet.png
+  artifactKey: Guid(33043456a1784834cbd66dcac878c913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04Sprites/objects/magnet.png using Guid(33043456a1784834cbd66dcac878c913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43c6f62607087499b1b44b13c9c906e') in 0.015226 seconds 
+  Import took 0.020195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.486738 seconds.
+  path: Assets/06Prefabs/rand_item1.prefab
+  artifactKey: Guid(c0e6db0c90448c149b494a939c3cf831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/rand_item1.prefab using Guid(c0e6db0c90448c149b494a939c3cf831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f96fded4ffc2d050d39adc116fa7fe4') in 0.010921 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.612643 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975e2ef3c8107de784dfe40df4c7357f') in 0.011013 seconds 
+  Import took 0.016317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.067994 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cdd3f4d40f700c85d50f6d78351856') in 0.017579 seconds 
+  Import took 0.022562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.514536 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f301a7ba181bc347568b0a9f3a605bc5') in 0.013466 seconds 
+  Import took 0.018824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.385496 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a37d8f8859472dd7331783eb0c2dc') in 0.011719 seconds 
+  Import took 0.016912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.189690 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994dcfbd610c37e64ea294e7c2d17114') in 0.013866 seconds 
+  Import took 0.019420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.229776 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12051aaad383761b622e4a398e1e14ae') in 0.011891 seconds 
+  Import took 0.016992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.886994 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147b91baefbacbc6efc4c6de1d90b00d') in 0.011329 seconds 
+  Import took 0.016715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.407421 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529261f24411c097f386d1cfba6083a7') in 0.012609 seconds 
+  Import took 0.018035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.653045 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e1e2c5a951e2529407e57579e58c19') in 0.012095 seconds 
+  Import took 0.017528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.242528 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee17ce18cdfbb67ef88dbbf3ba892e24') in 0.011637 seconds 
+  Import took 0.016902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.701983 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a9c83a4c6854cb5dad0493406821da') in 0.013051 seconds 
+  Import took 0.018362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.421157 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab8e2ee7f060e104f639c8f574761ef') in 0.013049 seconds 
+  Import took 0.018237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.918508 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccdf36d070286b5b56a32285f7ce9f5') in 0.013474 seconds 
+  Import took 0.018931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.611272 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04881d77667a5a2680a05c35c1093f2') in 0.011941 seconds 
+  Import took 0.017821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.819992 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc731e151c4d285d7b7183fb6529572') in 0.013387 seconds 
+  Import took 0.018531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.615764 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8523a0d215153c6073b75094f390063') in 0.012646 seconds 
+  Import took 0.018511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.628277 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d54ff6fc8b3220118bf86dbbee10251') in 0.011713 seconds 
+  Import took 0.016871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.048841 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d7d839c77524e52f2ad60367f46672') in 0.011598 seconds 
+  Import took 0.017358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.791621 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba08735c3987baf520d531003921ff') in 0.014697 seconds 
+  Import took 0.019705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.452999 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c6e2d9377242e03091b5fa26d06ecf') in 0.014188 seconds 
+  Import took 0.019567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.215077 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971c46a19c2c1c226efb1c85d4c2657') in 0.011962 seconds 
+  Import took 0.017269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.871076 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8443701009557fda1129c5a86d618206') in 0.011721 seconds 
+  Import took 0.016722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.357440 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a2965c1793dffaddbe1ee44f173ea3') in 0.013705 seconds 
+  Import took 0.018687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.743712 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbdfbde74680af38b98c41cbe5d8f7c') in 0.012278 seconds 
+  Import took 0.017596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.240701 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e8940decff4c073b67a0d700f1d439') in 0.014169 seconds 
+  Import took 0.019610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.615718 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35892669d81bf80ca33ba6b4cf148d4') in 0.012947 seconds 
+  Import took 0.018689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.631767 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0874480b00695f0646503b5722f50a3') in 0.013011 seconds 
+  Import took 0.018011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.229766 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582cb8e55e85d46d4647aff76d08a05a') in 0.012192 seconds 
+  Import took 0.017444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.598886 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bf662e29d29ac4051e9122b34f1102') in 0.012763 seconds 
+  Import took 0.018285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.197644 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ddb3fc604ae2f122639c4004cf9b41') in 0.013367 seconds 
+  Import took 0.018838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.239778 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3553976cc72fee9c6b37b522c623796f') in 0.011595 seconds 
+  Import took 0.016731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.070372 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4ee1d8e9d886ec1c341c9531527632') in 0.011839 seconds 
+  Import took 0.016953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.203610 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0fc972fa77c7e8642e917345fef010') in 0.012030 seconds 
+  Import took 0.017433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005782 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096bd0882009e8d24014acc77a994f2f') in 0.014622 seconds 
+  Import took 0.021235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.792140 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8c3462822e595dabe6b3e577034450') in 0.012443 seconds 
+  Import took 0.017485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.215600 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf463eef025384e6a8294c33fb05451d') in 0.013373 seconds 
+  Import took 0.018544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.775499 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c55c7f58868c6b1f4b013f4d14c8a9') in 0.012770 seconds 
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.017860 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8def0cfbbddead20df6df432ede0a8') in 0.012664 seconds 
+  Import took 0.017904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.527894 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a335601e20d35205b811091a755159a1') in 0.011859 seconds 
+  Import took 0.017226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.638200 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ec2a0f1a155b937594e4b0b296b4b7') in 0.011767 seconds 
+  Import took 0.017146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.852531 seconds.
+  path: Assets/06Prefabs/Weapon/HwachaUpgraded.prefab
+  artifactKey: Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06Prefabs/Weapon/HwachaUpgraded.prefab using Guid(fde4e6f18213e8141980c1162061417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265264c7a73427042fab1a70be89bd60') in 0.010625 seconds 
+  Import took 0.016181 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

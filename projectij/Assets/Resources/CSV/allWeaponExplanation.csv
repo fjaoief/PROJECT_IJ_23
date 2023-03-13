@@ -1,0 +1,40 @@
+﻿무기 이름,무기 설명,control,fatality,agility
+환도,strikes multiple times on nearby enemy,0.5,5,3
+월도,"spinning around the user, attack enemies with its blade",4,3,1
+창,throw a spear that bouncing on the edges,2,3,3
+돌팔매,a stone sling shot,3,2,3
+승자총통,"fires bullets in cross, only cools down when staying still",3,3.5,0.5
+현자총통,fires cannon balls to nearest enemies,2,5,1
+천자총통,calls down bombards on random location,3.5,2,1
+석회가루,generates a zone that slows enemies down and reducing their armor,5,0.5,2
+조총,"shoots out a penetrating shot, only attack when staying still",1,4.5,2
+석궁,"shoot a bolt towards enemies, cooldown reduced when staying still",2,3.5,2
+화차,fires a lot of projectiles to random direction,5,3.5,0.5
+각궁,"fires arrows towards enemies, cooldown reduced when staying still",1.5,2.5,3.5
+철퇴,"summons a mace that attack nearest enemy, and stuns them for short period",3.5,2.5,3
+편곤,"spinning around the user and on the end of its effect, make a single strike",5,2,1.5
+방패,"periodically absorb damage taken, and shorten the distance between characters",0,0,0
+깃발,let the next weapon attack has its special effect. Reduce the hp cost when refreshing level up bonus,0,0,0
+신장대,every x seconds gains level up bonus. Increse exp gains,0,0,0
+왜검,hurl a slashing effect on stop,1,5,1.5
+철퇴연계,,,,
+편곤연계,,,,
+end,,,,
+별운검,환도의 진화무기. 스턴 효과 획득,0.5,5,3
+협도,"월도의 진화무기. 지속시간 연장, 속도 빨라짐",4,3,1
+은입사철퇴,철퇴의 진화무기. 같은 지점에 1번 더,3.5,2.5,3
+야태도,왜검의 진화무기. 공격 넉백 크게 추가됨,1,5,1.5
+당파,창의 진화무기. 유지시간이 끝나면 제자리에 남음,2,3,3
+마상편곤,편곤의 진화무기. 돌때 캐릭터 앞으로 던짐+공격 횟수 추가에 영향을 받게됨,5,2,1.5
+각궁(불화살),각궁의 진화무기. 공격이 닿으면 그자리에 석회가루 비슷한 공격 장판 생성,1.5,2.5,3.5
+승자총통(삼연자포),승자총통의 진화무기. 세갈래로 추가 공격 ( 원을 그리며 차례로),3,3.5,0.5
+현자총통(비격진천뢰),현자총통의 진화무기. 일정 시간 지나면 폭발,2,5,1
+천자총통(대장군전),천자총통의 진화무기. 스턴 효과 추가,3.5,2,1
+철질려,석회가루의 진화무기. 쿨타임 없음(캐릭터 지나간 자리에 계속 생성),5,0.5,2
+석궁(불화살),석궁의 진화무기. 공격이 닿으면 그자리에 석회가루 비슷한 공격 장판 생성,2,3.5,2
+변이중화차,화차의 진화무기. 공격하고나서 캐릭터가 무적시간 획득,5,3.5,0.5
+은입사철퇴연계,,,,
+마상편곤연계,,,,
+각궁_불화살연계,,,,
+석궁_불화살연계,,,,
+현자총통_비격진천뢰연계,,,,

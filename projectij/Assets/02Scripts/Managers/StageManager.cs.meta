@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 7fb20f6bc9215d54aac7d06ad8e3264e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lvlsounds: {instanceID: 0}
+  - player: {instanceID: 0}
+  - _Camera: {instanceID: 0}
+  - tilemap: {instanceID: 0}
+  - boundingbox: {instanceID: 0}
+  - vcam: {instanceID: 0}
+  - EXP_Slider: {instanceID: 0}
+  - LevelUpWindow: {instanceID: 0}
+  - weaponIconsObj: {instanceID: 0}
+  - masteryUIObj: {instanceID: 0}
+  - lvlup: {fileID: 8300000, guid: 104bab6254ddd1d4abe1bc8e478cacb5, type: 3}
+  - enemyspawn: {fileID: 8300000, guid: 56d0d5d5146d2924cbff16987a384ddf, type: 3}
+  - portal: {instanceID: 0}
+  - portal_cam: {instanceID: 0}
+  - end_ui: {instanceID: 0}
+  - indicatorObj: {instanceID: 0}
+  - indicator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

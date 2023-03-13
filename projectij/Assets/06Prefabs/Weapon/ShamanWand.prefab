@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2627240405094013698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2627240405094013696}
+  - component: {fileID: 2627240405094013697}
+  m_Layer: 0
+  m_Name: ShamanWand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2627240405094013696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627240405094013698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3006475, y: -0.17670107, z: -4.6691537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2627240405094013697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627240405094013698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fc63b90fa8727458c38df195a094d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _size: 0
+  _speed: 0
+  _force: 0
+  _knockbackTime: 0
+  _stunTime: 0
+  _damage: 0
+  _coolTime: 0
+  _projectilePercentage: 1
+  _penetrationCount: 0
+  _duration: 0
+  _duration_effect: 0
+  _duration_noAttack: 0.3
+  _isChained: 0
+  startsound: {fileID: 0}
+  weaponName: 16
+  masteryName: 4
+  upgradedWeaponName: 20
+  chainedWeaponName: 20
+  isFirstWeapon: 0

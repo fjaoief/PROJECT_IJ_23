@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - EnemyWeapon
+  - PlayerWeapon
+  - Background
+  - Object
+  - Portal
+  - ExpBall
+  - RandObject
+  - Boss
+  - BossObject
+  - RandItem
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Object
+  - Weapon
+  - Filter
+  - EnemyWeapon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3835786813
+    locked: 0
+  - name: shadow
+    uniqueID: 458708215
+    locked: 0
+  - name: enemies
+    uniqueID: 2049427745
+    locked: 0
+  - name: Characters
+    uniqueID: 1589703701
+    locked: 0
+  - name: Objects
+    uniqueID: 867085697
+    locked: 0
+  - name: UI
+    uniqueID: 2160918647
+    locked: 0
+  - name: post
+    uniqueID: 3164295219
+    locked: 0
